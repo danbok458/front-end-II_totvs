@@ -10,18 +10,24 @@ header {
     color: white;
     text-align: center;
     padding: 20px;
+    display: flex;
+    justify-items: center;
+    justify-content: center;
 }
 
 .solucao{
     background-color: #0047AB;
     color: white; 
     padding: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
 }
 .solucao p{
-    position: relative;
-    left: 600px;
+    
     top: 20px;
-    width: 400px;
+
 }
 
 nav {
