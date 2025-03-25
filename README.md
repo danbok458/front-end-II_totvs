@@ -25,10 +25,10 @@ Este site é fictício e foi criado apenas para fins educacionais. Não possui q
 
 1. Clone este repositório:
    ```bash
-   git clone <URL_DO_REPOSITORIO>
+   git clone <https://github.com/danbok458/front-end-II_totvs.git>
    ```
 2. Abra o arquivo `index.html` em seu navegador.
 
 ## Créditos
 
-Desenvolvido por [Seu Nome] como parte da disciplina de Front-End II.
+Desenvolvido por Dabiel Henrique como parte da disciplina de Front-End II.
