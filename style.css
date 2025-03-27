@@ -1,3 +1,4 @@
+/* Global Styles */
 body {
     font-family: Arial, sans-serif;
     margin: 0;
@@ -5,6 +6,7 @@ body {
     background-color: #f8f9fa;
 }
 
+/* Header Styles */
 header {
     background-color: #0047AB;
     color: white;
@@ -20,7 +22,8 @@ header img {
     height: auto;
 }
 
-.solucao{
+/* Solução Section */
+.solucao {
     background-color: #0047AB;
     color: white; 
     padding: 10px;
@@ -29,12 +32,12 @@ header img {
     align-items: center;
     flex-direction: column;
 }
-.solucao p{
-    
-    top: 20px;
 
+.solucao p {
+    top: 20px;
 }
 
+/* Navigation Styles */
 nav {
     background-color: #0075C1;
     padding: 15px;
@@ -52,6 +55,7 @@ nav a:hover {
     color: #ddd;
 }
 
+/* Content Section */
 .content {
     max-width: 1200px;
     margin: 20px auto;
@@ -66,21 +70,18 @@ nav a:hover {
     box-shadow: 0 2px 5px rgba(0,0,0,0.1);
 }
 
+/* Button Adjustments */
 .btnx {
     position: relative;
     top: 24px;
 }
 
-.btnx h3 {
+.btnx h3, .btnx p {
     position: relative;
     bottom: 25px;
 }
 
-.btnx p {
-    position: relative;
-    bottom: 25px;
-}
-
+/* Features Grid */
 .features-grid {
     display: grid;
     grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
@@ -102,6 +103,7 @@ nav a:hover {
     margin-bottom: 15px;
 }
 
+/* Footer Styles */
 footer {
     background-color: #0047AB;
     color: white;
@@ -118,10 +120,11 @@ footer {
     transition: all 0.3s;
 }
 
-social-icons a:hover {
+.social-icons a:hover {
     color: #ddd;
 }
 
+/* Map Container */
 .map-container {
     width: 100%;
     height: 300px;
@@ -129,6 +132,7 @@ social-icons a:hover {
     border-radius: 10px;
 }
 
+/* Banner Section */
 .banner {
     background-image: url('https://via.placeholder.com/1200x300');
     background-size: cover;
@@ -138,6 +142,7 @@ social-icons a:hover {
     border-radius: 10px;
 }
 
+/* Media Queries */
 @media (max-width: 768px) {
     .banner {
         height: 200px;
@@ -200,6 +205,7 @@ social-icons a:hover {
     }
 }
 
+/* Form Styles */
 form input, form textarea {
     border: 1px solid #ccc;
     border-radius: 5px;
