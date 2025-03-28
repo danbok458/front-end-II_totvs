@@ -1,0 +1,64 @@
+### O que é o CSS?
+CSS (Cascading Style Sheets) é uma linguagem de estilo utilizada para definir a apresentação e o layout de um conteúdo escrito em HTML ou XML. Em outras palavras, o CSS controla como os elementos de uma página web são visualizados, incluindo cores, fontes, espaçamentos, entre outros aspectos visuais.
+
+### Quando foi criado?
+O CSS foi criado em **1996** por **Hakon Wium Lie**, navegador norueguês. Ele propôs o conceito de CSS como uma maneira de separar a apresentação do conteúdo na web, tornando mais fácil a criação e manutenção de sites. A especificação CSS 1.0 foi lançada no mesmo ano.
+
+---
+
+### Seletores de ID
+Os seletores de ID são uma forma de selecionar elementos HTML específicos em um documento para aplicar estilos CSS. Cada ID em um documento HTML deve ser único, o que permite que o CSS utilize essa identificação para aplicarilos de forma precisa.
+
+#### Sintaxe
+A sintaxe para selecionar um elemento por ID no CSS é:
+```css
+#id_do_elemento {
+    /* estilos */
+}
+```
+Por exemplo, se tivermos um elemento `<div>` com `id="header"` no HTML:
+```html
+<div id="header">Este é o cabeçalho</div>
+```
+Podemos styleá-lo assim:
+```css
+#header {
+    color: blue;
+    font-size: 24px;
+}
+```
+
+#### Características
+- Seletores de ID são muito específicos e ótimos paraestilizar elementos únicos.
+- Não podem começar com um número e não podem conter espaços.
+- É possível combinar seletores de ID com outros seletores para criar regras mais complexas.
+
+---
+
+### Comentários em CSS
+Comentários são blocos de texto que não são executados pelo navegador e são usados para adicionar explicações ou notas ao código. Eles ajudam outros desenvolvedores (ou você mesmo no futuro) a entender melhor o código.
+
+#### Sintaxe
+Os comentários no CSS são escritos usando:
+```css
+/* Este é um comentário em CSS */
+```
+No exemplo abaixo, usamos um comentário para descrever o propósito de um bloco de estilos:
+```css
+/* Estilos para o cabeçalho da página */
+#header {
+    color: blue;
+    font-size: 24px;
+}
+```
+
+#### Características
+- Comentários não afetam a funcionalidade do código.
+- Podem ser usados para desativar temporariamente blocos de código para testes.
+
+---
+
+### Resumindo:
+- **CSS** é uma linguagem para estilizar conteúdo web.
+- **Seletores de ID** permitem selecionar elementos específicos usando o atributo `id`.
+- **Comentários** ajudam na organização e explicação do código.
